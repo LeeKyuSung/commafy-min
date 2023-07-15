@@ -1,0 +1,36 @@
+{
+  "name": "commafy-min",
+  "version": "0.0.1",
+  "description": "Add commas to a number",
+  "main": "libs/index.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeeKyuSung/commafy-min"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "number",
+    "comma",
+    "commas",
+    "commafy",
+    "format",
+    "formatting",
+    "divide"
+  ],
+  "author": "LeeKyuSung <ks5050577@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/LeeKyuSung/commafy-min",
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.4.2",
+    "jest": "^29.6.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  }
+}
